@@ -247,6 +247,7 @@ public class MainActivity extends AppCompatActivity
                 return new MessageViewHolder(inflater.inflate(R.layout.item_message, viewGroup, false));
             }
 
+            ////
             // 추가
 
             private Indexable getMessageIndexable(FriendlyMessage friendlyMessage) {
